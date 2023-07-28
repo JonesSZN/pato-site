@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -10,8 +13,6 @@ body {
   background-image: url(slide1-01.jpg);
   background-position: center;
   background-size: cover;
-  border-top: 5px solid red;
-  position: fixed;
 }
 nav {
   /*NAVBAR*/
@@ -28,6 +29,10 @@ nav {
   width: 55%;
   display: flex;
   justify-content: space-between;
+}
+a {
+  color: white;
+  text-decoration: none;
 }
 ul {
   font-size: 13px;
@@ -112,6 +117,7 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .circles {
   width: 13px;
@@ -127,4 +133,113 @@ header h1 {
   transition: 0.8s;
   background-color: red;
   border: 3px solid white;
+}
+.welcome-section {
+  width: 100%;
+  height: 700px;
+  background-color: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-welcome {
+  transition: 0.8s;
+  transition: ease-in-out;
+
+  width: 30%;
+}
+.right-welcome img {
+  width: 430px;
+  height: 430px;
+  border-radius: 15px;
+}
+.left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.left-content {
+  text-align: center;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.left-content p {
+  margin: 0;
+  color: gray;
+}
+.left-content h2 {
+  font-family: "Exo 2", sans-serif;
+  font-family: "Lobster", cursive;
+  color: rgb(205, 36, 36);
+  margin: 0;
+}
+.left-content h1 {
+  text-transform: uppercase;
+  font-size: 55px;
+  margin: 0;
+}
+.story {
+  display: flex;
+  text-transform: uppercase;
+  gap: 10px;
+}
+.discover-section {
+  background-image: url(bg-intro-01.jpg);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.discover-section h1 {
+  margin: 0;
+  color: white;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+.discover-section p {
+  margin: 0;
+  font-size: 40px;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Lobster", cursive;
+  color: rgb(205, 36, 36);
+}
+.learn-more-section {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn-row {
+  display: flex;
+  gap: 20px;
+}
+.learn-row img {
+  width: 450px;
+  border-radius: 10px;
+}
+.learn-arrow {
+  display: flex;
+  text-transform: uppercase;
+  gap: 10px;
+}
+.learn-arrow img {
+  width: 20px;
+}
+.column-learn p {
+  color: gray;
+}
+.column-learn h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.column-learn {
 }
