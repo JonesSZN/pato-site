@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(slide1-01.jpg);
+  background-position: center;
+  background-size: cover;
+  border-top: 5px solid red;
+  position: fixed;
+}
+nav {
+  /*NAVBAR*/
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nav-container {
+  align-items: center;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  font-size: 13px;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  color: white;
+  text-transform: uppercase;
+}
+ul :hover {
+  transition: ease-in-out;
+  transition: 0.8s;
+  color: red;
+}
+li {
+  transition: ease-in-out;
+  transition: 0.4s;
+}
+.right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.right :nth-child(4) {
+  /*NAVBAR END*/
+  width: 50px;
+}
+header {
+  /*HEADER*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+}
+header h1,
+header h2 {
+  margin: 0;
+}
+
+.header-content {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-content > h2 {
+  color: white;
+  font-size: 60px;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Lobster", cursive;
+}
+header h1 {
+  text-transform: uppercase;
+  font-size: 100px;
+  color: white;
+}
+.header-btn {
+  width: 150px;
+  padding: 15px;
+  background-color: white;
+  color: rgb(205, 36, 36);
+  border-radius: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition: 0.5s;
+  border: none;
+}
+
+.header-btn:hover {
+  transition: ease-in-out;
+  transition: 0.5s;
+  background-color: rgb(205, 36, 36);
+  color: white;
+  border: none; /*HEADER END*/
+}
+.Three-circles {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circles {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: gray;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition: 0.7s;
+}
+.circles:hover {
+  transition: ease-in-out;
+  transition: 0.8s;
+  background-color: red;
+  border: 3px solid white;
+}
